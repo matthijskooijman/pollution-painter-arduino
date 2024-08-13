@@ -31,6 +31,10 @@ One extra new feature compared to Robin's version is that the current PM
 value is displayed in a "field-of-vision" style header line above the
 image
 
+![Resulting image](./img/Result.jpg)
+
+![MJS2020 assembled](./img/Assembled.jpg)
+
 ## Hardware connections (generic)
 This sketch can be run on any Arduino-supported board, provided the
 following connections can be made:
@@ -101,6 +105,9 @@ On the MJS2020 board, we made the following connections:
  4. The "user button" in the middle of the board was used as the
     start-stop button. It already has a small RC debounce filter in
     place.
+
+![MJS2020 front side](./img/Front.jpg)
+![MJS2020 back side](./img/Back.jpg)
 
 ## Software dependencies
 The firmware (sketch) is compiled with the Arduino environment. In
