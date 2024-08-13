@@ -146,6 +146,13 @@ libraries that you do not need).
    with bit banging seemed to manage that framerate.
  - Added field-of-view text rendering to the top of the image.
 
+## `u8x8_bitmap.c`
+
+This file is copied from the u8g2 repository, because it is not shipped
+in the Arduino version of that library. It is needed to support
+rendering to a bitmap/memory buffer, but can be removed once
+https://github.com/olikraus/u8g2/pull/2486 is merged.
+
 ## License
 pollution-painter-arduino was written by Matthijs Kooijman, taking
 inspiration and maybe a handfull of lines of code from Robin Price's
